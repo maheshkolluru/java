@@ -1,0 +1,54 @@
+constructor:
+it is a special member in java,it looks like method but it is not beacuse it doesnot have a return type
+constructor name should same has class name
+constructor get executed automatically whenever object is created.
+it calls default constructor if there is no constructor available in class. the default constructor is created by compiler
+
+
+uses:
+used for creating multiple objects
+for intialisings non static varibales
+
+Two types of constructor
+user defined constructor:
+
+the constructor which is created by the programmer
+the user defined constructor can be parameterized and non parameterized
+The parameterized constructor is used to provide different values to distinct objects. 
+
+
+
+parameterised constructor:
+the constructor which is declared with parameters
+the parameters are of any type,number and order inside the paranthesis of constructor
+parameterised constructor can invoke when the object is created with same no of arguments.order of arguments and type of arguments
+
+non parameterized:
+the constructor which is declared without parameters
+constructor get executed automatically whenever object is created without any arguments.
+
+predefined constructor
+ if there is no constructor created by programmer . the default constructor is created by compiler
+predefined constructor is always non para
+
+
+
+constructor overloading
+declaring multiple no of constructor with same class name but different parameter list(no.type,order of parameters)
+we use constructor overloading for creating same class objects in multiple ways
+
+
+question
+q.constructor cannot be a static
+1.static is belongs to class rather than the object of class
+so constructor get executed when object of class is created
+2.if we create static constructor it cannnot be called from child class
+beacause beacuse static allowed within the class
+
+constructor is not final,abstract
+
+
+
+
+
+ 

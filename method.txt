@@ -1,0 +1,79 @@
+what is method?
+method is a part of program which contains block in which we provide
+a business logic to perform aa particular task.
+It is used to achieve the reusability of code
+The method is executed only when we call or invoke it from main method()
+we  declare method inside the class or interface
+
+method declaration
+
+public       void           add             ()     {
+(acess     (return type)   (method name) (parameters)
+specifier)
+
+
+method body
+}
+
+
+every method has method signature which is collection of method name and parameters
+
+access specifier: who can access these method. it specifies the visibilty of the method
+four access specifiers
+public: it can be accessed by all the classes in application
+private: it can be accessed by the class where it declared
+private: it can be accessed by the all the classes of same package or subclasses in differnt package
+default: whenever we not provided any access specifier it defaultly takes default specifier
+which means it can access only in same pacakge itself.
+
+return type:
+return type is data type which we want to return from a method .return of primitive datatype,object,collection,void
+usually if we dont return any thing it is void return type. 
+
+method name:
+It is a unique name that is used to define the name of a method.
+It must be corresponding to the functionality of the method
+by using method name we will call the method or invoke it
+
+paramters :
+parameter should be separated by comma and should be enclosed in paranthesis
+parameter consists of datatype and varibale name
+if there is no parameters than paranathesis will be empty.
+
+
+
+user defined methods are 
+parameterized methods
+non parameterized methods
+
+
+parameterized methods
+the method which contains parameters within paranthesis of method 
+parameters can be any type
+the paramter are used to recieve input to perform operation
+we call parameterised methods by passing argument to the method name in main()
+paramters get intialised when we call the method by providing arguments
+
+non parameterised
+method which is declared without any parameters inside paranthesis of method
+
+static method
+the method declared with static key word is know as static method
+static method are called directly from main method with out creating object
+
+nonstatic method/instance methods
+the method declared without static key word is know as non-static method
+we need to create object  of class and by using reference varabiles of object we need to call non static method.
+
+two types of instance methods
+accessor method or getter method()
+which can be easily identified beacuse it is prsfixed with get key word it is also called getter method
+it is used to get the value of private fields
+mutator() or setter():
+which can be easily identified beacuse it is prsfixed with set key word it is also called setter method
+It is used to set the value of the private field.
+
+
+
+ 
+  
